@@ -1,10 +1,11 @@
 # SpringBoot Template
-본 템플릿은 소프트스퀘어드 서버 교육용 Spring Boot 템플릿 입니다.
+
+![스크린샷 2023-11-07 오후 2.21.17.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fb9%2Fdzvtpkz54xx2qkvjdh6xzzr40000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_Myfz4J%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-11-07%20%EC%98%A4%ED%9B%84%202.21.17.png)
 
 ## ✨Common
 ### REST API
 REST API를 처리하는 SpringBoot 프로젝트   
-동작하는 기본 구성 원리를 반드시 숙지하자.
+
 
 ### Folder Structure
 - `src`: 메인 로직
@@ -146,6 +147,3 @@ JdbcTemplate을 사용하여 구성되어 있다. 자세한 내용은 이곳 [�
 - 컴파일 에러 확인
 - log 폴더 확인
 - 그 외 방법들
-
-## ✨License
-- 본 템플릿의 소유권은 소프트스퀘어드에 있습니다. 본 자료에 대한 상업적 이용 및 무단 복제, 배포 및 변경을 원칙적으로 금지하며 이를 위반할 때에는 형사처벌을 받을 수 있습니다.
