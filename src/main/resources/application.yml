@@ -6,7 +6,7 @@ spring:
     name: demo
 
   datasource:
-    url: jdbc:mysql://mysql:3306/user?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/user?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
     username: root
     password: inhatc #password
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
@@ -32,4 +32,16 @@ logging:
     org.hibernate.SQL: debug
     org.hibernate.type: trace # 실제 들어가는 파라미터값 찍어주는 설정
 
-
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    groups-order: DESC
+    operationsSorter: method
+    disable-swagger-default-url: true
+    display-request-duration: true
+  api-docs:
+    path: /api-docs
+  show-actuator: true
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+  paths-to-match:

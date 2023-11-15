@@ -43,10 +43,15 @@ dependencies {
 
     // Web
     implementation ('org.springframework.boot:spring-boot-starter-web')
-
     implementation('org.springframework.boot:spring-boot-starter')
     implementation('org.springframework.boot:spring-boot-starter-web')
 
+    //시큐리티
+    implementation ('org.springframework.boot:spring-boot-starter-oauth2-client') // 스프링 시큐리티
+    implementation ('org.springframework.boot:spring-boot-starter-security')
+
+    //스웨거
+    implementation ('org.springdoc:springdoc-openapi-ui:1.6.9')
 
 
 
